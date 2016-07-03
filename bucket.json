@@ -1,0 +1,294 @@
+{
+  "bucket": {
+    "_id": "577921797daa19a54d000005",
+    "slug": "localization-example",
+    "title": "Localization Example",
+    "object_types": [
+      {
+        "title": "Pages",
+        "slug": "pages",
+        "singular": "Page",
+        "help_text": null,
+        "metafields": [],
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "localization": true,
+        "locales": [
+          "en-GB",
+          "en-US",
+          "fr-FR",
+          "de-DE"
+        ]
+      }
+    ],
+    "links": null,
+    "objects": [
+      {
+        "_id": "5779302f7daa19a54d000011",
+        "order": 0,
+        "slug": "home",
+        "title": "Accueil",
+        "content": "<p>Bienvenue sur notre site incroyable!<br></p>",
+        "metafields": [],
+        "bucket": "577921797daa19a54d000005",
+        "type_slug": "pages",
+        "created": "2016-07-03T15:33:03.140Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "status": "published",
+        "locale": "fr-FR",
+        "modified": "2016-07-03T15:35:16.308Z"
+      },
+      {
+        "_id": "5779303e7daa19a54d000012",
+        "order": 0,
+        "slug": "home",
+        "title": "Zuhause",
+        "content": "<p>Willkommen auf unserer erstaunliche Website !<br></p>",
+        "metafields": [],
+        "bucket": "577921797daa19a54d000005",
+        "type_slug": "pages",
+        "created": "2016-07-03T15:33:18.970Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "status": "published",
+        "locale": "de-DE",
+        "modified": "2016-07-03T15:34:57.954Z"
+      },
+      {
+        "_id": "57792ff07daa19a54d000010",
+        "order": 1,
+        "slug": "home",
+        "title": "Home",
+        "content": "<p>Welcome to our amazing website!<br></p>",
+        "metafields": [],
+        "bucket": "577921797daa19a54d000005",
+        "type_slug": "pages",
+        "created": "2016-07-03T15:32:00.944Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "status": "published",
+        "locale": "en-US"
+      },
+      {
+        "_id": "57792fe67daa19a54d00000f",
+        "order": 2,
+        "slug": "home",
+        "title": "Home",
+        "content": "<p>Welcome to our amazing website!</p>",
+        "metafields": [],
+        "bucket": "577921797daa19a54d000005",
+        "type_slug": "pages",
+        "created": "2016-07-03T15:31:50.234Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "status": "published",
+        "locale": "en-GB"
+      },
+      {
+        "_id": "577922387daa19a54d000009",
+        "old_id": "572012199195e4722e000008",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "contact",
+        "title": "Contactez nous",
+        "content": "<p>Contactez-nous en France</p><p>(France&nbsp;Contact Info)</p>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.416Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 3,
+        "modified": "2016-07-03T14:43:53.679Z",
+        "status": "published",
+        "locale": "fr-FR"
+      },
+      {
+        "_id": "577922387daa19a54d00000a",
+        "old_id": "5720121b9195e4722e000009",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "contact",
+        "title": "Contact us",
+        "content": "<p>Contact us in the UK</p><p>(UK&nbsp;Contact Info)</p>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.416Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 3,
+        "modified": "2016-07-03T14:42:38.777Z",
+        "status": "published",
+        "locale": "en-GB"
+      },
+      {
+        "_id": "577922387daa19a54d000007",
+        "old_id": "5720121e9195e4722e00000a",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "contact",
+        "title": "Kontaktiere uns",
+        "content": "<p>Kontaktieren Sie uns in Deutschland</p><p>(Germany&nbsp;Contact Info)</p>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.414Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 3,
+        "modified": "2016-07-03T14:43:36.423Z",
+        "status": "published",
+        "locale": "de-DE"
+      },
+      {
+        "_id": "577922387daa19a54d000008",
+        "old_id": "572012139195e4722e000007",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "contact",
+        "title": "Contact us",
+        "content": "<p>Contact us in the US</p><p>(US Contact Info)</p>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.415Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 3,
+        "modified": "2016-07-03T14:42:25.335Z",
+        "status": "published",
+        "locale": "en-US"
+      },
+      {
+        "_id": "577922387daa19a54d00000b",
+        "old_id": "572011499195e4722e000006",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "about",
+        "title": "Über uns",
+        "content": "Wir organisieren unsere Produkte von Farbe!<br>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.417Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 4,
+        "modified": "2016-07-03T14:41:37.347Z",
+        "status": "published",
+        "locale": "de-DE"
+      },
+      {
+        "_id": "577922387daa19a54d00000c",
+        "old_id": "572010a69195e4722e000005",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "about",
+        "title": " À propos de nous",
+        "content": "Nous organisons nos produits par la couleur!",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.418Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 5,
+        "modified": "2016-07-03T14:40:39.337Z",
+        "status": "published",
+        "locale": "fr-FR"
+      },
+      {
+        "_id": "577922387daa19a54d00000d",
+        "old_id": "571ff33f9195e4722e000002",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "about",
+        "title": "About us",
+        "content": "<p>We organize our products by color!</p>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.418Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 7,
+        "modified": "2016-07-03T14:41:04.622Z",
+        "status": "published",
+        "locale": "en-US"
+      },
+      {
+        "_id": "577922387daa19a54d00000e",
+        "old_id": "571ff32e9195e4722e000001",
+        "bucket": "577921797daa19a54d000005",
+        "slug": "about",
+        "title": "About us",
+        "content": "<p>We organise our products by colour!<br></p>",
+        "metafields": [],
+        "type_slug": "pages",
+        "created": "2016-07-03T14:33:28.419Z",
+        "user_id": "55767c3ffbcf5cbb13000001",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1,
+          "add_metafields": 1,
+          "metafields_title": 1,
+          "metafields_key": 1
+        },
+        "order": 8,
+        "modified": "2016-07-03T14:42:01.222Z",
+        "status": "published",
+        "locale": "en-GB"
+      }
+    ],
+    "media": [],
+    "media_folders": null,
+    "plugins": []
+  }
+}
