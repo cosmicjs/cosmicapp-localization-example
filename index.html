@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Localization Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script> 
+</head>
+<body data-page="home">
+  <div class="container">
+    <h2>International Home Page</h2>
+    <ul class="nav nav-pills">
+      <li role="presentation"><a href="about.html">About</a></li>
+      <li role="presentation"><a href="contact.html">Contact</a></li>
+    </ul>
+    <br />
+    <div id="page"></div>
+    <br />
+    <label>Select Language:</label>
+    <div class="btn-group" role="group" aria-label="locales">
+      <button class="btn btn-primary set-locale" data-locale="en-US">English (US)</button>
+      <button class="btn btn-default set-locale" data-locale="en-GB">English (GB)</button>
+      <button class="btn btn-default set-locale" data-locale="fr-FR">French</button>
+      <button class="btn btn-default set-locale" data-locale="de-DE">German</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
